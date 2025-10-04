@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:pet_store/pet_form_page.dart';
-import 'package:pet_store/pet.dart';
-import 'package:pet_store/pet_list_page.dart';
-import 'package:pet_store/pet_shop_page.dart';
+import 'package:pet_store/screen/pet_form_page.dart';
+import 'package:pet_store/domain/models/pet.dart';
+import 'package:pet_store/screen/pet_list_page.dart';
+import 'package:pet_store/screen/pet_shop_page.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
